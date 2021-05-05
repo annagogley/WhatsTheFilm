@@ -11,8 +11,9 @@
 		3714C2472642A3ED001EB6F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714C2462642A3ED001EB6F3 /* SceneDelegate.swift */; };
 		3714C2492642A3ED001EB6F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714C2482642A3ED001EB6F3 /* ViewController.swift */; };
 		3714C24C2642A3ED001EB6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714C24A2642A3ED001EB6F3 /* Main.storyboard */; };
-		3714C24E2642A3EF001EB6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3714C24D2642A3EF001EB6F3 /* Assets.xcassets */; };
 		3714C2512642A3EF001EB6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714C24F2642A3EF001EB6F3 /* LaunchScreen.storyboard */; };
+		3714C25A2642A5D4001EB6F3 /* PostersRecognitionModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3714C2592642A5D4001EB6F3 /* PostersRecognitionModel.mlmodel */; };
+		372E66532642F1EA00896EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372E66522642F1EA00896EAB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		3714C2462642A3ED001EB6F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3714C2482642A3ED001EB6F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3714C24B2642A3ED001EB6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3714C24D2642A3EF001EB6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3714C2502642A3EF001EB6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3714C2522642A3EF001EB6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3714C2592642A5D4001EB6F3 /* PostersRecognitionModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PostersRecognitionModel.mlmodel; sourceTree = "<group>"; };
+		372E66522642F1EA00896EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 				3714C2462642A3ED001EB6F3 /* SceneDelegate.swift */,
 				3714C2482642A3ED001EB6F3 /* ViewController.swift */,
 				3714C24A2642A3ED001EB6F3 /* Main.storyboard */,
-				3714C24D2642A3EF001EB6F3 /* Assets.xcassets */,
+				372E66522642F1EA00896EAB /* Assets.xcassets */,
 				3714C24F2642A3EF001EB6F3 /* LaunchScreen.storyboard */,
+				3714C2592642A5D4001EB6F3 /* PostersRecognitionModel.mlmodel */,
 				3714C2522642A3EF001EB6F3 /* Info.plist */,
 			);
 			path = "What's The Film?!";
@@ -125,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3714C2512642A3EF001EB6F3 /* LaunchScreen.storyboard in Resources */,
-				3714C24E2642A3EF001EB6F3 /* Assets.xcassets in Resources */,
+				372E66532642F1EA00896EAB /* Assets.xcassets in Resources */,
 				3714C24C2642A3ED001EB6F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3714C2492642A3ED001EB6F3 /* ViewController.swift in Sources */,
+				3714C25A2642A5D4001EB6F3 /* PostersRecognitionModel.mlmodel in Sources */,
 				3714C2452642A3ED001EB6F3 /* AppDelegate.swift in Sources */,
 				3714C2472642A3ED001EB6F3 /* SceneDelegate.swift in Sources */,
 			);
